@@ -1,0 +1,147 @@
+.aboutus-title {
+  opacity: 0;
+  transform: translateX(0%);
+  animation: aboutustitle 0.8s ease forwards;
+}
+
+@keyframes aboutustitle {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.aboutus-para {
+  opacity: 0;
+  transform: translateX(0%);
+  animation: aboutuspara 0.8s ease forwards;
+  animation-delay: 0.8s;
+}
+
+@keyframes aboutuspara {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.aboutus-set-title {
+  opacity: 0;
+  transform: translateX(0%);
+  animation: aboutus-settitle 0.8s ease forwards;
+  animation-delay: 1.6s;
+}
+
+.directorArea {
+  opacity: 0;
+  transform: translateX(0%);
+  animation: aboutus-settitle 3s ease forwards;
+  animation-delay: 3s;
+}
+
+@keyframes aboutus-settitle {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.aboutus-set-para {
+  opacity: 0;
+  transform: translateX(0%);
+  animation: aboutus-setpara 0.8s ease forwards;
+  animation-delay: 2.4s;
+}
+
+@keyframes aboutus-setpara {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.brand-value-animation {
+  opacity: 0;
+  transform: translateY(10%);
+  animation: brandvalueAni 8s ease forwards;
+  /* animation-delay: 3.2s; */
+}
+
+@keyframes brandvalueAni {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.item-delay1 {
+  opacity: 0;
+  transform: translateX(0rem);
+  /* Update from translateX(-20px) to translateX(20px) */
+  animation: right-to-left 0.8s ease;
+  animation-delay: 0.5s;
+}
+
+.item-delay2 {
+  opacity: 0;
+  transform: translateX(0rem);
+  /* Update from translateX(-20px) to translateX(20px) */
+  animation: right-to-left 0.8s ease;
+  animation-delay: 0.8s;
+}
+
+.item-delay3 {
+  opacity: 0;
+  transform: translateX(0rem);
+  /* Update from translateX(-20px) to translateX(20px) */
+  animation: right-to-left 0.8s ease;
+  animation-delay: 1s;
+}
+
+@keyframes right-to-left {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*
+  .fade-and-scroll-right-to-left {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  */
+
+.rounded {
+  border-radius: 60px 0 60px 0;
+}

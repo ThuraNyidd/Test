@@ -1,0 +1,161 @@
+@media (max-width: 870px) {
+  .forward-button1 {
+    margin-left: 38%;
+  }
+
+  .forward-button2 {
+    margin-right: 38%;
+  }
+}
+
+@media (max-width: 480px) {
+  .forward-button1 {
+    margin-left: 25%;
+  }
+
+  .forward-button2 {
+    margin-right: 25%;
+  }
+}
+
+@media (max-width: 340px) {
+  .forward-button1 {
+    margin-left: 27%;
+  }
+
+  .forward-button2 {
+    margin-right: 27%;
+  }
+}
+
+
+.forward-icon-container:hover .forward-icon path {
+  stroke: white;
+}
+
+.forward-button2:hover .forward-icon path {
+  stroke: white;
+}
+
+.forward-button1:hover .forward-icon path {
+  stroke: white;
+}
+
+.fade-right {
+  animation: fade-right 1s ease-in;
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.fade-in-div {
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: fadeScrollAnimation 0.8s ease forwards;
+  animation-delay: 0.5s;
+  /* Adjust the delay to control the animation timing */
+}
+
+@keyframes fadeScrollAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-scroll {
+  animation: fadeAnimation 1s ease forwards;
+}
+
+@keyframes fadeAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .fade-in-div {
+    transform: translateX(-50px);
+  }
+}
+
+/* our successful cus */
+
+.fade-scroll {
+
+  transition: transform 0.8s ease;
+  transform: translateX(-10rem);
+  /* Initial translation to left */
+}
+
+.fade-in-div {
+  transform: translateX(0);
+}
+
+
+.item {
+  animation: fadeAnimationin 1s ease forwards;
+}
+
+@keyframes fadeAnimationin {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-and-scroll-right-to-left {
+  opacity: 0;
+  transform: translateX(0%);
+  animation: fadeScrollAnimationin 0.8s ease forwards;
+  animation-delay: 0.5s;
+  /* Adjust the delay to control the animation timing */
+}
+
+@keyframes fadeScrollAnimationin {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* .fade-in-left-to-right.fade-scroll-call {
+  opacity: 1;
+  transform: translateX(0);
+} */
+.rounded {
+  border-radius: 60px 0 60px 0;
+
+}
+
+@media (max-width: 768px) {
+  .rounded {
+    border-radius: 0;
+  }
+}

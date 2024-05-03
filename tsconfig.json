@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/pages/contact-us/index.jsx", "src/pages/reviews/index.jsx", "src/pages/milestones/index.jsx", "src/pages/meet-the-team/index.jsx", "src/pages/careers/index.jsx", "src/pages/about-us/index.jsx", "src/pages/security-solutions/index.jsx", "src/pages/call-centre-and-crm-solutions/index.jsx", "src/pages/terms-of-services/index.jsx", "src/pages/web-solutions/index.jsx", "src/pages/software-solutions/index.jsx", "src/pages/Home/Page.jsx", "src/pages/news-and-events/index.jsx", "src/pages/career-application-form/index.jsx", "src/pages/nocareer/index.jsx", "src/pages/cookie-policy/index.jsx", "src/pages/privacy-policy/index.jsx", "src/components/menu/Menu.jsx", "src/components/menu/SubMenu.jsx", "src/components/menu/MenuData.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

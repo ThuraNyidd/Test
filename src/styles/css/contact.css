@@ -1,0 +1,107 @@
+.contact-box {
+    opacity: 0;
+    transition: opacity 0.5s, transform 1s;
+    transform: translateX(100%);
+}
+
+.contact-box.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+/* title and address  */
+.contact-us-title {
+    opacity: 0;
+    transform: translateX(0%);
+    animation: contactUs-title 0.8s ease forwards;
+
+}
+
+@keyframes contactUs-title {
+    0% {
+        opacity: 0;
+        transform: translateX(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.contact-us-phone {
+    opacity: 0;
+    transform: translateX(0%);
+    animation: contactUs-phone 0.8s ease forwards;
+    animation-delay: 0.8s;
+}
+
+@keyframes contactUs-phone {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.contact-us-address {
+    opacity: 0;
+    transform: translateX(0%);
+    animation: contactUs-address 0.8s ease forwards;
+}
+
+@keyframes contactUs-address {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.subjectbox {
+    width: 100%;
+
+}
+
+.css-1u9des2-indicatorSeparator {
+    display: none !important;
+}
+
+.css-13cymwt-control {
+    min-height: 0px !important;
+    border-radius: 0px !important;
+    border-style: none !important;
+    border-width: 0px !important;
+}
+
+.css-1fdsijx-ValueContainer {
+
+    padding: 0px !important;
+
+}
+
+.css-1jqq78o-placeholder {
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    color: black !important;
+}
+
+.css-t3ipsp-control {
+    border-color: white !important;
+    box-shadow: none !important;
+    border-width: 0px !important;
+
+}
+
+.please:focus {
+    border: none;
+}

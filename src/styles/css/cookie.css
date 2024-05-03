@@ -1,0 +1,66 @@
+/* cookies */
+.cookie-popup {
+  position: fixed;
+  width: 100%;
+  bottom: -100%;
+  /* Initially set the bottom position to be outside the viewport */
+  background-color: #fff;
+  padding: 10px;
+  z-index: 9999;
+  transition: transform 0.5s ease, bottom 0.5s ease;
+  /* Add transitions for smooth animation */
+}
+
+.cookie-popup.show {
+  bottom: 0%;
+  /* Move the box to the desired position */
+}
+
+.pop-upoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  background-color: rgb(112 111 111 / 29%);
+
+  z-index: 9998;
+}
+
+
+.cookie-popup .content {
+  text-align: center;
+}
+
+.cookie-popup .actions {
+  margin-top: 10px;
+}
+
+.cookie-popup button {
+  margin: 0 5px;
+}
+
+/* cookies */
+
+
+
+.section-durve {
+  position: relative;
+  width: 100%;
+  height: calc(100%-200px);
+  background-color: #fff;
+}
+
+.section-durve .curve {
+  position: absolute;
+  bottom: -200px;
+  height: 200px;
+  width: 100%;
+  transform-origin: top;
+}
+
+.section-durve .curve .curve-img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,35 @@
+.header__button {
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: -18px;
+  outline: none;
+  animation-duration: 300ms;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+}
+
+.header__button[data-open='true'] {
+  background-color: hsl(52, 100%, 50%);
+  animation-name: scale;
+}
+
+.header__button[data-open='false'] {
+  transition: background-color 250ms linear;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(100%);
+  }
+}

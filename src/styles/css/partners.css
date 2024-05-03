@@ -1,0 +1,71 @@
+.partners-title {
+  opacity: 0;
+  transform: translateX(0);
+  animation: partnerstitle 0.8s ease forwards;
+}
+
+@keyframes partnerstitle {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.partner-banner {
+
+  overflow: hidden;
+  transition: clip-path 1s ease;
+  clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+
+
+.partner-banner.show {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  ;
+}
+
+.partner-para {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: partnerpara 1s ease forwards;
+  animation-delay: 0.8s;
+
+}
+
+@keyframes partnerpara {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.partner-logos {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: partnerlogos 1s ease forwards;
+  animation-delay: 1.6s;
+
+}
+
+@keyframes partnerlogos {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

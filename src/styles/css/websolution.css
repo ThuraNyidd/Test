@@ -1,0 +1,75 @@
+.websolution-h1 {
+
+  animation: websoultionH1 0.8s ease forwards;
+}
+
+@keyframes websoultionH1 {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.websolution-p {
+
+  animation: websolutionP 1.2s ease forwards;
+
+}
+
+@keyframes websolutionP {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.web-body-h1 {
+  animation: webbody-h1 1.5s ease forwards;
+}
+
+@keyframes webbody-h1 {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.web-body-p {
+  animation: webbody-p 2.4s ease forwards;
+}
+
+@keyframes webbody-p {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.web-bodyImg {
+
+  overflow: hidden;
+  transition: clip-path 2s ease;
+  clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+
+
+.web-bodyImg.show {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}

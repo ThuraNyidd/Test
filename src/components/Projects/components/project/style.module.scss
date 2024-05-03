@@ -1,0 +1,73 @@
+.project{
+
+    width: 100%;
+    align-items: center;
+    padding: 50px 10px 28px 10px;
+    border-top: 1px solid rgb(201, 201, 201);
+    cursor: pointer;
+    transition: all 0.2s;
+
+    h2{
+        font-size: 30px;
+        margin: 0px;
+        font-weight: 500;
+        transition: all 0.4s;
+    }
+
+    p{
+        transition: all 0.4s;
+        font-weight: 300;
+    }
+
+    &:last-of-type{
+        border-bottom: 1px solid rgb(201, 201, 201);
+    }
+
+    &:hover{
+        opacity: 0.5;
+
+        h2{
+            transform: translateX(-10px);
+            color:#FF0000;
+        }
+
+        p{
+            transform: translateX(10px);
+            color:#FF0000;
+
+        }
+    }
+}
+@media only screen and (max-width: 980px) {
+    .project{
+
+        padding: 30px 10px 10px 10px;
+
+    
+        h2{
+            font-size: 20px;
+  
+        }}
+ }
+@media only screen and (max-width: 768px) {
+    .project{
+
+        padding: 30px 10px 10px 10px;
+
+    
+        h2{
+            font-size: 20px;
+  
+        }}
+ }
+ @media only screen and (max-width: 540px) {
+    .project{
+
+        padding: 30px 10px 10px 10px;
+
+    
+        h2{
+            font-size: 20px;
+  
+        }}
+ }

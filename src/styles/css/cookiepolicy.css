@@ -1,0 +1,35 @@
+.cookie-h1 {
+  transform: translateX(0%);
+  animation: cookieH1 0.8s ease forwards;
+}
+
+@keyframes cookieH1 {
+  0% {
+
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.cookie-p {
+  opacity: 0;
+  transform: translateX(0%);
+  animation: cookieP 0.8s ease forwards;
+  animation-delay: 0.8s;
+  /* Add a 1-second delay */
+}
+
+@keyframes cookieP {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

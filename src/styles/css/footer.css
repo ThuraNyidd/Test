@@ -1,0 +1,26 @@
+.underlineani:before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 2px;
+    width: 92%;
+    background: white;
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: transform 0.2s linear;
+}
+
+.underlineani:hover:before {
+    transform: scaleX(1);
+}
+
+.headerUnderline:before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+    background: black;
+    transform: scaleX(0);
+    transition: transform 0.2s linear;
+}
