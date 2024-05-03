@@ -1,10 +1,10 @@
 
 
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import Cookie from "../pages/cookie";
 import HomePage from "../pages/Home";
 import { useCookies } from 'react-cookie';
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 import "react-toastify/dist/ReactToastify.css";
 import Pagetransition from "../components/pagetransition/PageTransition";
 import PageLoader from "./change-client";
