@@ -19,6 +19,7 @@ import news17 from './newsphoto/embassies.png'
 import news18 from './newsphoto/ocean wave.png'
 import news19 from './newsphoto/unilink.png'
 import news20 from './newsphoto/CBLife.png'
+import news21 from './newsphoto/beach.avif'
 
 export const newscontent = [
     {
@@ -71,7 +72,6 @@ export const newscontent = [
         content: 'Call Centre Solution For Hi Internet',
         date: 'Thursday 30th July 2020'
     },
-
     {
         img: news3,
         content: 'Call Centre Launched For Air KBZ & MAI ',
@@ -121,5 +121,10 @@ export const newscontent = [
         img: news12,
         content: 'HRMS Solution Launched for Small to Enterprise Levels',
         date: 'Monday 21st January 2013'
+    },
+    {
+        img: news21,
+        content: 'Company Vication',
+        date: 'Monday 21st May 2024'
     }
 ]

@@ -8,7 +8,7 @@ import { useCookies } from 'react-cookie';
 import "react-toastify/dist/ReactToastify.css";
 import Pagetransition from "../components/pagetransition/PageTransition";
 import PageLoader from "./change-client";
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";1
 
 export default function Home() {
   const [cookies] = useCookies(["cookieConsent"]);

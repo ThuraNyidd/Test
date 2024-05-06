@@ -21,7 +21,7 @@ const HeaderComponent = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 500); // Adjust the delay as needed
+    }, 2000); // Adjust the delay as needed
 
     return () => clearTimeout(timer);
   }, []);
@@ -32,7 +32,7 @@ const HeaderComponent = () => {
           <Link href="/">
             <Image src={logo} alt="logo" width={140} className=" ss:mb-2 sm:mb-2 xs:mb-2 md:mb-0 lg:mb-0 xl:mb-0" />
             {/* <h1 className="text-xl md:cursor-pointer">SmilaxGolbal</h1> */}
-
+             
           </Link>
           <div
             className="sm:hidden text-black  text-3xl "
@@ -60,16 +60,17 @@ const HeaderComponent = () => {
             : " xs:hidden bg-black absolute right-0 w-4/5 pt-16 h-full bottom-0 text-white pl-10 duration-500 "
         }
       > */}
+
       <div className={`fixed z-40 bg-[#1C1D20] right-0 h-full w-full pt-16 bottom-0 text-white pl-0 duration-1000 ${open ? "transform translate-x-0 mobileNav mobileMenu" : "transform translate-x-full mobileNavClosed normalMenu"
         }`}>
-        <div
+        {/* <div
           className=" top-6 text-3xl right-5 absolute "
           onClick={() => setOpen(!open)}
         >
           <svg className="w-6 h-6 text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
           </svg>
-        </div>
+        </div> */}
         <div className={`h-full overflow-y-auto border-t border-[rgba(255, 255, 255, 0.225)] pt-[1em]`}>
           {/* <h6 className="mx-4 text-[.6em] font-[300] opacity-[0.5] border-b border-[rgba(255, 255, 255, 0.225)] pb-[3em] mb-[1em]">NAVIGATION</h6> */}
           <SubLinks />
